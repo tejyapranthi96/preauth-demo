@@ -38,7 +38,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.0fe3ebe7a354aa97.js"
+            "main.da62dccc5650840f.js"
           ]
         },
         "css": {
@@ -64,7 +64,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.0fe3ebe7a354aa97.js"
+            "main.da62dccc5650840f.js"
           ]
         },
         "css": {
@@ -147,7 +147,9 @@
           "sync": []
         }
       },
-      "usedIn": [],
+      "usedIn": [
+        "./Bootstrap"
+      ],
       "usedExports": [],
       "fallback": ""
     },
@@ -165,7 +167,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.0fe3ebe7a354aa97.js"
+            "main.da62dccc5650840f.js"
           ]
         },
         "css": {
@@ -191,7 +193,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.0fe3ebe7a354aa97.js"
+            "main.da62dccc5650840f.js"
           ]
         },
         "css": {
@@ -199,7 +201,9 @@
           "sync": []
         }
       },
-      "usedIn": [],
+      "usedIn": [
+        "./PreAuthRoot"
+      ],
       "usedExports": [],
       "fallback": ""
     },
@@ -217,7 +221,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.0fe3ebe7a354aa97.js"
+            "main.da62dccc5650840f.js"
           ]
         },
         "css": {
@@ -226,6 +230,8 @@
         }
       },
       "usedIn": [
+        "./Bootstrap",
+        "./PreAuthRoot",
         "./routes"
       ],
       "usedExports": [],
@@ -245,7 +251,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.0fe3ebe7a354aa97.js"
+            "main.da62dccc5650840f.js"
           ]
         },
         "css": {
@@ -253,7 +259,9 @@
           "sync": []
         }
       },
-      "usedIn": [],
+      "usedIn": [
+        "./Bootstrap"
+      ],
       "usedExports": [],
       "fallback": ""
     },
@@ -271,7 +279,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.0fe3ebe7a354aa97.js"
+            "main.da62dccc5650840f.js"
           ]
         },
         "css": {
@@ -345,7 +353,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_Module.f24cbf93afd0159b.js"
+            "__federation_expose_Module.5abaf4a388aca6f1.js"
           ],
           "async": []
         },
@@ -368,7 +376,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_routes.f42e83abe15b6678.js"
+            "__federation_expose_routes.03107d6a1d22c5e9.js"
           ],
           "async": []
         },
@@ -403,18 +411,46 @@
       "path": "./PreAuthRoot",
       "id": "preauth:PreAuthRoot",
       "name": "PreAuthRoot",
-      "requires": [],
+      "requires": [
+        "react/jsx-runtime",
+        "react-router-dom"
+      ],
       "file": "src\\app\\PreAuthRoot.tsx",
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_PreAuthRoot.0ff5cac2c50fc79a.js"
+            "__federation_expose_PreAuthRoot.097f80cc7b930c7c.js"
           ],
           "async": []
         },
         "css": {
           "sync": [
             "__federation_expose_PreAuthRoot.f0fc0655b2b3dc8c.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./Bootstrap",
+      "id": "preauth:Bootstrap",
+      "name": "Bootstrap",
+      "requires": [
+        "react",
+        "react/jsx-runtime",
+        "react-dom/client"
+      ],
+      "file": "src\\bootstrap.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Bootstrap.53280261306e2c39.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_Bootstrap.5ce4c1e623094a33.css"
           ],
           "async": []
         }
