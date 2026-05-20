@@ -38,7 +38,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.756ff60255ddff7a.js"
+            "main.0fe3ebe7a354aa97.js"
           ]
         },
         "css": {
@@ -64,7 +64,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.756ff60255ddff7a.js"
+            "main.0fe3ebe7a354aa97.js"
           ]
         },
         "css": {
@@ -165,7 +165,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.756ff60255ddff7a.js"
+            "main.0fe3ebe7a354aa97.js"
           ]
         },
         "css": {
@@ -191,7 +191,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.756ff60255ddff7a.js"
+            "main.0fe3ebe7a354aa97.js"
           ]
         },
         "css": {
@@ -217,7 +217,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.756ff60255ddff7a.js"
+            "main.0fe3ebe7a354aa97.js"
           ]
         },
         "css": {
@@ -226,7 +226,6 @@
         }
       },
       "usedIn": [
-        "./PreAuthRoot",
         "./routes"
       ],
       "usedExports": [],
@@ -246,7 +245,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.756ff60255ddff7a.js"
+            "main.0fe3ebe7a354aa97.js"
           ]
         },
         "css": {
@@ -272,7 +271,7 @@
           "async": [],
           "sync": [
             "remoteEntry.js",
-            "main.756ff60255ddff7a.js"
+            "main.0fe3ebe7a354aa97.js"
           ]
         },
         "css": {
@@ -404,14 +403,12 @@
       "path": "./PreAuthRoot",
       "id": "preauth:PreAuthRoot",
       "name": "PreAuthRoot",
-      "requires": [
-        "react/jsx-runtime"
-      ],
+      "requires": [],
       "file": "src\\app\\PreAuthRoot.tsx",
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_PreAuthRoot.c1552e7b18cd5f69.js"
+            "__federation_expose_PreAuthRoot.0ff5cac2c50fc79a.js"
           ],
           "async": []
         },
